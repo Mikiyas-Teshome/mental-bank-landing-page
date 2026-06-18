@@ -50,9 +50,14 @@ const MainHeader = () => {
 
         {/* Download button + hamburger menu */}
         <div className="flex items-center gap-3">
-          <button className="bg-button px-4 py-1 md:px-4 md:py-2 text-white rounded-md cursor-pointer">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.bekur.mentalbank&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-button px-4 py-1 md:px-4 md:py-2 text-white rounded-md cursor-pointer"
+          >
             Download
-          </button>
+          </a>
 
           {/* Hamburger only on small screens */}
           <button
@@ -97,6 +102,15 @@ const MainHeader = () => {
               className="hover:text-primary transition-colors">
               Testimonial
             </Link>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.bekur.mentalbank&hl=en"
+              onClick={() => setIsMobileMenuOpen(false)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors"
+            >
+              Download
+            </a>
           </div>
         </div>
       )}

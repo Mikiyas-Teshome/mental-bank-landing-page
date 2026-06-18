@@ -25,8 +25,20 @@ const Hero = () => {
 
                 {/* FOR DOWNLOAD */}
                 <div className=" flex flex-wrap gap-6 max-w-[25.375rem] mx-auto  ">
-                    <a href=""><PlayStore className="w-36  md:w-44 -mb-4 sm:-mb-2 md:mb-0" /></a>
-                    <a href=""><AppStore className="w-36 md:w-44" /></a>
+                                        <a href="https://play.google.com/store/apps/details?id=com.bekur.mentalbank&hl=en" target="_blank" rel="noopener noreferrer"><PlayStore className="w-36  md:w-44 -mb-4 sm:-mb-2 md:mb-0" /></a>
+                                        <div className="relative group">
+                                            <button
+                                                type="button"
+                                                aria-disabled="true"
+                                                disabled
+                                                className="w-36 md:w-44 opacity-50 cursor-not-allowed"
+                                            >
+                                                <AppStore className="w-36 md:w-44" />
+                                            </button>
+                                            <span className="pointer-events-none absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap rounded bg-black/90 text-white text-xs px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                                Coming soon
+                                            </span>
+                                        </div>
                 </div>
             </div>
             <div className=" mx-auto">
