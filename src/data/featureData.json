@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Daily Mental Deposits",
+    "description": "Track goal-oriented actions and reward yourself with symbolic income",
+    "image": "/featureImage/image1.png"
+  },
+  {
+    "id": 2,
+    "title": "Affirmations & Journaling",
+    "description": "Write and review custom affirmations based on your long-term goals",
+    "image": "/featureImage/image2.png"
+  },
+  {
+    "id": 3,
+    "title": "Personal Value Rate Calculator",
+    "description": "Set your symbolic hourly rate and measure your daily progress in mental currency",
+    "image": "/featureImage/image3.png"
+  },
+  {
+    "id": 4,
+    "title": "Custom Reminders & Routines",
+    "description": "Get gentle nudges to complete your daily entry—morning or night",
+    "image": "/featureImage/image4.png"
+  },
+  {
+    "id": 5,
+    "title": "Private & Secure",
+    "description": "All entries are encrypted and stored securely. No sharing unless you choose to",
+    "image": "/featureImage/image5.png"
+  },
+  {
+    "id": 6,
+    "title": "Evening Mode for Bedtime Entries",
+    "description": "The perfect way to end your day—reflect, affirm, and deposit before sleep",
+    "image": "/featureImage/image6.png"
+  }
+]
